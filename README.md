@@ -4,3 +4,7 @@ registrados en una base de datos, también contiene una gestión de jugadores , 
 
 # CAPTURAS
 ![](InicionSesion.png)
+![](RegistroUsuario.png)
+![](Informativa.png)
+![](EditarEliminar.png)
+![](Agregar.png)
