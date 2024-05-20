@@ -1,0 +1,99 @@
+/* ******************************************************************************* */
+/*   File:indexstyle.css                                                         */
+/*                                                    ::::::::::       :;     ;:   */
+/*                                                   |;                :;    ;:    */
+/*                                                  |;                 :;   ;:     */
+/*   By: Pablo Camino Vázquez                      |;                  :;  ;:      */
+/*                                                |;                   :; ;:       */
+/*   Created: 2024/04/29 10:26                   |::::::::::::   :+:   ;;;         */
+/*   Updated: 2024/04/29 10:26												       */
+/*                                                                                 */
+/* ******************************************************************************* */
+body {
+    background-image: url(../img/fondob.avif);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.nav-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pagina {
+    margin-left: 200px; /* Para dejar espacio a la barra de navegación */
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+}
+
+.boton {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.boton:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.boton .imagen img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.boton p {
+    font-family: Arial, sans-serif;
+    font-size: 2vh;
+    text-align: center;
+    margin: 0;
+    color: #6981A7;
+}
